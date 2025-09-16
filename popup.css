@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1e1e1e;
+  color: white;
+  margin: 0;
+  padding: 10px;
+  width: 350px; 
+  max-width: 350px;
+}
+
+#popup-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#output {
+  max-height: 300px;
+  overflow-y: auto;
+  font-size: 14px;
+  line-height: 1.4;
+}
